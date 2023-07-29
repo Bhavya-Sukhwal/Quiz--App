@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* form css start*/
+
+#form {
+  width: 300px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: black;
+  text-align: center;
+}
+
+#form input {
+  border: 2px solid black;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  margin: 8px
+}
+
+/* Form css end */
+
+/* Quiz css starts */
+
+#quiz {
+  background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 500px;
+    max-width: 95vw;
+    overflow: hidden;
+    display: none;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 2rem 1rem;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(255, 126, 80);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 2px;
+  float: right;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+button:focus {
+  outline: none;
+  background-color: green;
+}
+
+#previous {
+  display: none;
+  padding: 10px 20px;
+  background-color: rgb(255, 126, 80);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#previous:hover {
+  background-color: orangered;
+}
+
+#previous:focus {
+  outline: none;
+  background-color: green;
+}
+
+/* Quiz css ends  */
+
+/* Table css starts  */
+
+#resultTable {
+  width: 700px;
+  background-color: whitesmoke;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  color: black;
+}
+
+#resultTable td,
+#resultTable th {
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 5px;
+}
+
+#resultTable thead {
+  background-color: orangered;
+}
+
+/* Table css ends  */
